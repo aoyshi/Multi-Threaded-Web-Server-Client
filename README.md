@@ -35,3 +35,8 @@ Limitations:
 Future work:
 1. Make the client and server run over a real network with actual IP addresses, and not just locally. This would allow the programs to run on separate end systems. A possible implementation would be to ask for the server IP address from the client before setting up a connection. Consequently, the server - upon connecting - should display its IP address so the user can input that information into the client program for connection setup.
 2. Make port numbers flexible so user can select it via the GUI.
+
+How to run:
+1. Create packages named myServer and myMasterClient on NetBeans (8.1 or higher), and copy paste the .java and .fxml files into respective packages.
+OR
+2. Run the .jar files as standalone GUIs.
