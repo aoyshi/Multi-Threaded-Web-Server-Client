@@ -9,6 +9,8 @@ Client: simple JavaFX GUI that spawns fully-functioning, independent, identical 
 
 ![Client GUI SnapShot](https://github.com/aoyshi/Multi-Threaded-Web-Server-Client/blob/master/clientGUIScreenshot.png)
 
+------------------------------------------------------------------------------
+
 ![Client GUI SnapShot](https://github.com/aoyshi/Multi-Threaded-Web-Server-Client/blob/master/clientInputDialogPic.png)
 
 Connection: The socket connection established is keep-alive, so the user may download and upload as many times as desired until the client is explicitly disconnected.
