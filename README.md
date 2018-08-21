@@ -15,7 +15,7 @@ Client: simple JavaFX GUI that spawns fully-functioning, independent, identical 
 
 Connection: The socket connection established is keep-alive, so the user may download and upload as many times as desired until the client is explicitly disconnected.
 
-System: 
+# System/Tools Used: 
 
 OS: Windows 10
 
@@ -25,18 +25,18 @@ Language: Java 8.0
 
 GUI: JavaFX 8.0, Swing
 
-Limitations:
+# Limitations:
 
 1. The usual [X] windows-default close button at the top right corner of the client window has been intentionally disabled via code, so that the user cannot exit out of the client while he is still connected to the server, without closing all the streams first. The only way to close the client window is through the Close button.
 2. The client and server utilize TWO different ports, one for general communication of response and request (port 6789), and another for sending and receiving files (port 7000). The two port numbers are hardcoded into the program and the user cannot change it from the GUI.
 3. The program runs locally only as of now. The localhost ip address ("127.0.0.1") is hardcoded into the client program for connecting to the server.
 
 
-Future work:
+# Future work:
 1. Make the client and server run over a real network with actual IP addresses, and not just locally. This would allow the programs to run on separate end systems. A possible implementation would be to ask for the server IP address from the client before setting up a connection. Consequently, the server - upon connecting - should display its IP address so the user can input that information into the client program for connection setup.
 2. Make port numbers flexible so user can select it via the GUI.
 
-How to run:
+# How to run:
 1. Create packages named myServer and myMasterClient on NetBeans (8.1 or higher), and copy paste the .java and .fxml files into respective packages.
 OR
 2. Run the .jar files as standalone GUIs.
